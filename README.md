@@ -1,10 +1,10 @@
-# Sprint the world javascript action
+# Sprint the world action
 
-This action prints "Hello World" or "Hello" + the name of a person to greet to the log.
+This action prints "Sprint World" or "Sprint" + the name of a person to sprint to the log.
 
 ## Inputs
 
-### `who-to-greet`
+### `whom-to-sprint`
 
 **Required** The name of the person to greet. Default `"World"`.
 
@@ -12,10 +12,10 @@ This action prints "Hello World" or "Hello" + the name of a person to greet to t
 
 ### `time`
 
-The time we greeted you.
+The time we sprinted you.
 
 ## Example usage
 
-uses: actions/hello-world-javascript-action@v1.1
+uses: actions/sprint-action@v1.1
 with:
-  who-to-greet: 'Mona the Octocat'
+  whom-to-sprint: 'Mona the Octocat'
