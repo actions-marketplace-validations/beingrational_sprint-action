@@ -11,5 +11,6 @@ outputs:
 runs:
   using: 'node12'
   main: 'index.js'
-icon: award
-color: purple
+branding:
+  icon: 'award'  
+  color: 'green'
