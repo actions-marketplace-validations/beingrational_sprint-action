@@ -16,6 +16,6 @@ The time we sprinted you.
 
 ## Example usage
 
-uses: beingrational/sprint-action@v1.1
+uses: beingrational/sprint-action@v3.0
 with:
   whom-to-sprint: 'Mona the Octocat'
